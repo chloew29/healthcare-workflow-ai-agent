@@ -1,0 +1,9 @@
+claim_id,patient_account_id,payer,claim_amount,approved_amount,claim_status,denial_reason,days_to_payment,balance_due
+C001,PA001,Kaiser HMO,850,700,Approved,None,14,150
+C002,PA002,Blue Shield PPO,1200,0,Denied,Missing documentation,30,1200
+C003,PA003,Medicare Advantage,2400,1800,Approved,Medical necessity review,45,600
+C004,PA004,Aetna PPO,650,0,Denied,Prior authorization required,28,650
+C005,PA005,Cigna PPO,300,260,Approved,None,10,40
+C006,PA006,Blue Shield PPO,950,0,Pending,Eligibility verification,18,950
+C007,PA007,Kaiser HMO,1500,0,Denied,Coding error,35,1500
+C008,PA008,Medicare Advantage,2200,1900,Approved,None,25,300

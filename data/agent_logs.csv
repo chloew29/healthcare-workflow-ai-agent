@@ -1,0 +1,55 @@
+timestamp,message,intent,escalation_flag,auto_resolved,estimated_staff_minutes_saved,estimated_token_cost,department,procedure_type,payer,agent_status
+2026-06-02T22:59:45,I need to schedule a cardiology appointment next week.,appointment,False,True,12,0.002,,,,
+2026-06-02T23:00:01,I need to schedule a cardiology appointment next week.,appointment,False,True,12,0.002,,,,
+2026-06-02T23:03:04,I need to schedule a cardiology appointment next week.,appointment,False,True,12,0.002,Cardiology,,,Appointment option found
+2026-06-02T23:03:04,I have Kaiser HMO and need an MRI. Do I need approval?,prior_authorization,True,False,3,0.002,,MRI,Kaiser Hmo,Prior authorization checked
+2026-06-02T23:03:04,I have Blue Shield PPO and need a specialist visit.,appointment,True,False,3,0.002,,Specialist Visit,Blue Shield Ppo,Needs human review
+2026-06-02T23:03:04,I want to book a primary care visit.,appointment,False,True,12,0.002,Primary Care,Primary Care Visit,,Appointment option found
+2026-06-02T23:03:04,I have Medicare Advantage and need an MRI.,prior_authorization,True,False,3,0.002,,MRI,Medicare Advantage,Prior authorization checked
+2026-06-02T23:03:04,I need help with my bill.,general_question,True,False,3,0.002,,,,Needs human review
+2026-06-02T23:03:04,Can I schedule a dermatology appointment?,appointment,False,True,12,0.002,Dermatology,,,Appointment option found
+2026-06-02T23:03:04,I have Aetna PPO and need a specialist visit.,appointment,True,False,3,0.002,,Specialist Visit,Aetna Ppo,Needs human review
+2026-06-02T23:03:04,I need to book an orthopedics appointment.,appointment,False,True,12,0.002,Orthopedics,,,Appointment option found
+2026-06-02T23:03:04,I have Cigna PPO and need a primary care visit.,appointment,False,True,12,0.002,Primary Care,Primary Care Visit,Cigna Ppo,Appointment option found
+2026-06-02T23:03:04,Do I need insurance approval for an MRI with Blue Shield PPO?,prior_authorization,False,True,12,0.002,,MRI,Blue Shield Ppo,Prior authorization checked
+2026-06-02T23:03:04,I want to reschedule my radiology appointment.,appointment,True,False,3,0.002,Radiology,,,Needs human review
+2026-06-02T23:03:04,I have Kaiser HMO and need a primary care visit.,appointment,False,True,12,0.002,Primary Care,Primary Care Visit,Kaiser Hmo,Appointment option found
+2026-06-02T23:03:04,Can I cancel my appointment?,appointment,True,False,3,0.002,,,,Needs human review
+2026-06-02T23:03:04,I need prior authorization for a specialist visit with Aetna PPO.,appointment,True,False,3,0.002,,Specialist Visit,Aetna Ppo,Needs human review
+2026-06-02T23:03:04,Can I book a dermatology visit this month?,appointment,False,True,12,0.002,Dermatology,,,Appointment option found
+2026-06-02T23:03:04,I need approval for an MRI with Medicare Advantage.,prior_authorization,True,False,3,0.002,,MRI,Medicare Advantage,Prior authorization checked
+2026-06-02T23:03:04,I want to schedule an orthopedics visit.,appointment,False,True,12,0.002,Orthopedics,,,Appointment option found
+2026-06-02T23:03:04,Does Blue Shield PPO cover a specialist visit?,appointment,True,False,3,0.002,,Specialist Visit,Blue Shield Ppo,Needs human review
+2026-06-02T23:03:04,I have a question about my insurance bill.,prior_authorization,True,False,3,0.002,,,,Needs human review
+2026-06-02T23:03:10,I need to schedule a cardiology appointment next week.,appointment,False,True,12,0.002,Cardiology,,,Appointment option found
+2026-06-02T23:03:17,I need to schedule a cardiology appointment next week.,appointment,False,True,12,0.002,Cardiology,,,Appointment option found
+2026-06-02T23:03:17,I have Kaiser HMO and need an MRI. Do I need approval?,prior_authorization,True,False,3,0.002,,MRI,Kaiser Hmo,Prior authorization checked
+2026-06-02T23:03:17,I have Blue Shield PPO and need a specialist visit.,appointment,True,False,3,0.002,,Specialist Visit,Blue Shield Ppo,Needs human review
+2026-06-02T23:03:17,I want to book a primary care visit.,appointment,False,True,12,0.002,Primary Care,Primary Care Visit,,Appointment option found
+2026-06-02T23:03:17,I have Medicare Advantage and need an MRI.,prior_authorization,True,False,3,0.002,,MRI,Medicare Advantage,Prior authorization checked
+2026-06-02T23:03:17,I need help with my bill.,general_question,True,False,3,0.002,,,,Needs human review
+2026-06-02T23:03:17,Can I schedule a dermatology appointment?,appointment,False,True,12,0.002,Dermatology,,,Appointment option found
+2026-06-02T23:03:17,I have Aetna PPO and need a specialist visit.,appointment,True,False,3,0.002,,Specialist Visit,Aetna Ppo,Needs human review
+2026-06-02T23:03:17,I need to book an orthopedics appointment.,appointment,False,True,12,0.002,Orthopedics,,,Appointment option found
+2026-06-02T23:03:17,I have Cigna PPO and need a primary care visit.,appointment,False,True,12,0.002,Primary Care,Primary Care Visit,Cigna Ppo,Appointment option found
+2026-06-02T23:03:17,Do I need insurance approval for an MRI with Blue Shield PPO?,prior_authorization,False,True,12,0.002,,MRI,Blue Shield Ppo,Prior authorization checked
+2026-06-02T23:03:17,I want to reschedule my radiology appointment.,appointment,True,False,3,0.002,Radiology,,,Needs human review
+2026-06-02T23:03:17,I have Kaiser HMO and need a primary care visit.,appointment,False,True,12,0.002,Primary Care,Primary Care Visit,Kaiser Hmo,Appointment option found
+2026-06-02T23:03:17,Can I cancel my appointment?,appointment,True,False,3,0.002,,,,Needs human review
+2026-06-02T23:03:17,I need prior authorization for a specialist visit with Aetna PPO.,appointment,True,False,3,0.002,,Specialist Visit,Aetna Ppo,Needs human review
+2026-06-02T23:03:17,Can I book a dermatology visit this month?,appointment,False,True,12,0.002,Dermatology,,,Appointment option found
+2026-06-02T23:03:17,I need approval for an MRI with Medicare Advantage.,prior_authorization,True,False,3,0.002,,MRI,Medicare Advantage,Prior authorization checked
+2026-06-02T23:03:17,I want to schedule an orthopedics visit.,appointment,False,True,12,0.002,Orthopedics,,,Appointment option found
+2026-06-02T23:03:17,Does Blue Shield PPO cover a specialist visit?,appointment,True,False,3,0.002,,Specialist Visit,Blue Shield Ppo,Needs human review
+2026-06-02T23:03:17,I have a question about my insurance bill.,prior_authorization,True,False,3,0.002,,,,Needs human review
+2026-06-02T23:03:17,I need to schedule a cardiology appointment next week.,appointment,False,True,12,0.002,Cardiology,,,Appointment option found
+2026-06-02T23:03:17,I have Kaiser HMO and need an MRI. Do I need approval?,prior_authorization,True,False,3,0.002,,MRI,Kaiser Hmo,Prior authorization checked
+2026-06-02T23:03:17,I have Blue Shield PPO and need a specialist visit.,appointment,True,False,3,0.002,,Specialist Visit,Blue Shield Ppo,Needs human review
+2026-06-02T23:03:17,I want to book a primary care visit.,appointment,False,True,12,0.002,Primary Care,Primary Care Visit,,Appointment option found
+2026-06-02T23:03:17,I have Medicare Advantage and need an MRI.,prior_authorization,True,False,3,0.002,,MRI,Medicare Advantage,Prior authorization checked
+2026-06-02T23:03:17,I need help with my bill.,general_question,True,False,3,0.002,,,,Needs human review
+2026-06-02T23:03:17,Can I schedule a dermatology appointment?,appointment,False,True,12,0.002,Dermatology,,,Appointment option found
+2026-06-02T23:03:17,I have Aetna PPO and need a specialist visit.,appointment,True,False,3,0.002,,Specialist Visit,Aetna Ppo,Needs human review
+2026-06-02T23:03:17,I need to book an orthopedics appointment.,appointment,False,True,12,0.002,Orthopedics,,,Appointment option found
+2026-06-02T23:03:17,I have Cigna PPO and need a primary care visit.,appointment,False,True,12,0.002,Primary Care,Primary Care Visit,Cigna Ppo,Appointment option found
+2026-06-02T23:07:25,Can you check my claim status?,billing_claims,True,False,3,0.002,,,,Billing / claims workflow checked

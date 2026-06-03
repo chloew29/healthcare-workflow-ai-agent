@@ -1,0 +1,8 @@
+payer,procedure_type,prior_auth_required,required_documents,denial_risk
+Kaiser HMO,MRI,Yes,Referral;Diagnosis code;Clinical notes,High
+Kaiser HMO,Primary Care Visit,No,None,Low
+Blue Shield PPO,MRI,Yes,Referral;Diagnosis code,Medium
+Blue Shield PPO,Specialist Visit,Yes,Referral,Medium
+Medicare Advantage,MRI,Yes,Referral;Clinical notes;Medical necessity,High
+Aetna PPO,Specialist Visit,Yes,Referral,Medium
+Cigna PPO,Primary Care Visit,No,None,Low

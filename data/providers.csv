@@ -1,0 +1,6 @@
+provider_id,provider_name,department,next_available_days,accepting_new_patients
+P001,Dr. Smith,Cardiology,14,Yes
+P002,Dr. Lee,Primary Care,3,Yes
+P003,Dr. Patel,Radiology,7,No
+P004,Dr. Chen,Dermatology,21,Yes
+P005,Dr. Johnson,Orthopedics,10,Yes

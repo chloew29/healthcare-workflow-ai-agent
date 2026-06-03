@@ -1,0 +1,6 @@
+appointment_id,department,provider_id,available_date,status
+A001,Cardiology,P001,2026-06-10,Available
+A002,Primary Care,P002,2026-06-05,Available
+A003,Radiology,P003,2026-06-12,Unavailable
+A004,Dermatology,P004,2026-06-24,Available
+A005,Orthopedics,P005,2026-06-15,Available
